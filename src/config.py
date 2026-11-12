@@ -23,3 +23,5 @@ SAMPLING_RATE_HZ = 100  # sampling rate of the MPU-9250 sensors
 RECORDING_TO_CAR = {1: 1, 2: 1, 3: 1, 4: 2, 5: 2, 6: 2, 7: 3, 8: 3, 9: 3}
 RECORDING_TO_SCENARIO = {1: 1, 2: 2, 3: 3, 4: 1, 5: 2, 6: 3, 7: 1, 8: 2, 9: 3}
 CAR_NAMES = {1: "Volkswagen Saveiro", 2: "Fiat Bravo", 3: "Fiat Palio"}
+CLASS_ORDER = ["asphalt", "cobblestone", "dirt"]
+CLASS_COLORS = {"asphalt": "#0072B2", "cobblestone": "#E69F00", "dirt": "#009E73"}
