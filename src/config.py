@@ -25,3 +25,9 @@ RECORDING_TO_SCENARIO = {1: 1, 2: 2, 3: 3, 4: 1, 5: 2, 6: 3, 7: 1, 8: 2, 9: 3}
 CAR_NAMES = {1: "Volkswagen Saveiro", 2: "Fiat Bravo", 3: "Fiat Palio"}
 CLASS_ORDER = ["asphalt", "cobblestone", "dirt"]
 CLASS_COLORS = {"asphalt": "#0072B2", "cobblestone": "#E69F00", "dirt": "#009E73"}
+
+# Windowing
+WINDOW_SECONDS = 2.0 # window length: 2s = 200 samples at 100 Hz
+WINDOW_OVERLAP = 0.5 # consecutive windows share 50% of their samples
+PURITY_MIN = 0.8 # minimun fraction of samples of the majority class
+MIN_SPEED_MPS = 0.5 # windows with a lower mean speed are treated as "standing still"
